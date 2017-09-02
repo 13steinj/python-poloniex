@@ -1,10 +1,12 @@
 from setuptools import setup
-setup(name='poloniex',
-      version='0.4.6',
-      description='Poloniex API wrapper for Python 2.7 and 3',
-      url='https://github.com/s4w3d0ff/python-poloniex',
-      author='s4w3d0ff',
-      license='GPL v2',
-      packages=['poloniex'],
-      install_requires=['requests'],
-      zip_safe=False)
+
+setup(
+    name='PPAW',
+    version='0.0.0.dev',
+    description='Python Poloniex API Wrapper',
+    url='https://github.com/13steinj/python-poloniex',
+    author='Jonathan Stein',
+    author_email="13stein.j+pip@gmail.com",
+    packages=['poloniex'],
+    install_requires=['requests', 'six'],
+)
